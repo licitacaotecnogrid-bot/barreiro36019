@@ -1,0 +1,38 @@
+# Development files
+node_modules
+.git
+.env
+.env.local
+.env.*.local
+
+# Build outputs (will be rebuilt)
+dist
+
+# Development tools
+vite.config.server.ts
+vite.config.ts
+tsconfig.json
+
+# Documentation
+*.md
+AGENTS.md
+DATABASE.md
+
+# Scripts and configs
+scripts/
+wrangler.toml
+wrangler-worker.toml
+_routes.json
+_worker.js
+deploy.sh
+deploy.ps1
+cloudflare.d.ts
+components.json
+
+# Prisma (no longer used)
+prisma/
+
+# Database files
+database/dev.db*
+*.db-wal
+*.db-shm
