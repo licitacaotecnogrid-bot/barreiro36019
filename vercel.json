@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "npm run build && npm run build:server",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist/spa",
   "env": {
     "DATABASE_URL": "@database_url",
     "NODE_ENV": "production"
